@@ -14,6 +14,8 @@
 		6CDBB8C81B8B695800A1BD6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDBB8C71B8B695800A1BD6B /* Images.xcassets */; };
 		6CDBB8CB1B8B695800A1BD6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CDBB8C91B8B695800A1BD6B /* LaunchScreen.xib */; };
 		6CDBB8D71B8B695800A1BD6B /* DocumentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDBB8D61B8B695800A1BD6B /* DocumentsTests.m */; };
+		6CDBB8E11B8B6A9900A1BD6B /* document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6CDBB8E01B8B6A9900A1BD6B /* document.pdf */; };
+		6CDBB8E31B8B984D00A1BD6B /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CDBB8E21B8B984D00A1BD6B /* avatar.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		6CDBB8D01B8B695800A1BD6B /* DocumentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDBB8D51B8B695800A1BD6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CDBB8D61B8B695800A1BD6B /* DocumentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentsTests.m; sourceTree = "<group>"; };
+		6CDBB8E01B8B6A9900A1BD6B /* document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = document.pdf; sourceTree = "<group>"; };
+		6CDBB8E21B8B984D00A1BD6B /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		6CDBB8B91B8B695800A1BD6B /* Documents */ = {
 			isa = PBXGroup;
 			children = (
+				6CDBB8E01B8B6A9900A1BD6B /* document.pdf */,
+				6CDBB8E21B8B984D00A1BD6B /* avatar.jpg */,
 				6CDBB8BE1B8B695800A1BD6B /* AppDelegate.h */,
 				6CDBB8BF1B8B695800A1BD6B /* AppDelegate.m */,
 				6CDBB8C11B8B695800A1BD6B /* ViewController.h */,
@@ -200,8 +206,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CDBB8C61B8B695800A1BD6B /* Main.storyboard in Resources */,
+				6CDBB8E31B8B984D00A1BD6B /* avatar.jpg in Resources */,
 				6CDBB8CB1B8B695800A1BD6B /* LaunchScreen.xib in Resources */,
 				6CDBB8C81B8B695800A1BD6B /* Images.xcassets in Resources */,
+				6CDBB8E11B8B6A9900A1BD6B /* document.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,8 +356,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Documents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -358,8 +368,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Documents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
